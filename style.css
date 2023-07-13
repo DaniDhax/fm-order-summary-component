@@ -194,6 +194,12 @@ h2 {
   font-weight: 900;
 }
 
+.plan a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(118, 108, 240, 1);
+}
+
 .buttons {
   display: flex;
   flex-direction: column;
@@ -213,12 +219,22 @@ h2 {
   box-shadow: 0px 25px 10px hsl(245, 75%, 52%,0.15);
 }
 
+.buttons .proceed:hover {
+  cursor: pointer;
+  background-color: rgba(118, 108, 240, 1);
+}
+
 .buttons a {
   width: 85%;
   padding: 1.5rem;
   font-size: 1.3rem;
   color: var(--desaturated-blue);
   font-weight: 900;
+}
+
+.buttons a:hover {
+  cursor: pointer;
+  color: var(--dark-blue)
 }
 
 
